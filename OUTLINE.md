@@ -91,6 +91,8 @@
 | --- | ----- | ----- | ---------- |
 | no trademark clause | no trademark clause | trademark disclaimer allowed | use of trademarks _and name of licensor_ not allowed except as required for standard use (unmodified distribution) |
 
+--> without a trademark clause, is redistribution allowed by a non-trademark holder, even if the software is unmodified?
+
 ## Conclusions
 * Lots of holes exist in popular open source licenses.
-* GPLv3 and Apache 2.0 are the most 'secure.'
+* GPLv3 and Apache 2.0 are the most 'secure' — GPLv3 upheld in court (Artifex Software, Inc. v. Hancom, Inc.)
