@@ -22,7 +22,9 @@ Given that patent law is applicable to software (Enfish LLC v. Microsoft, Inc. a
 
 In 1972, inventor Gary Benson sued for patent infringement for unauthorized use of an algorithm he had patented: the process by which numbers in decimal notation could be transformed into binary notation. Benson claimed that all uses of his algorithm—be they automated by a computer or performed by hand—were subject to his patent. Calling the patented algorithm nothing more than a "law of nature," the court ruled against Benson and declared the patent invalid. Benson appealed, and eventually the case appeared before the Supreme Court. (Gottschalk v. Benson, 409 U.S. 63.)
 
-There was little precedent at the time as to whether an algorithm could be patented. In 1939 it was ruled that mathematical expressions could not be patented (Mackay Co. v. Radio Corp., 306 U.S. 86), however Benson argued that his patent was not an _equation_ but rather a _process_—a way of solving an equation, so to speak. The distinction was lost on the Supreme Court justices, however, and they upheld the lower court's decision. Algorithms, or at least simple ones, could not be patented. (Gottschalk v. Benson, 409 U.S. 63.)
+There was little precedent at the time as to whether an algorithm could be patented. In 1939 it was ruled that mathematical expressions could not be patented (Mackay Co. v. Radio Corp., 306 U.S. 86), however Benson argued that his patent was not an _equation_ but rather a _process_—a particular way of solving an equation, so to speak. The distinction was lost on the Supreme Court justices, however, and they upheld the lower court's decision. Algorithms, they ruled, could not be patented. (Gottschalk v. Benson, 409 U.S. 63.)
+
+The significance of this decision could not have been anticipated in 1972. Computers had yet to revolutionize the world, and many of the intricacies of modern programming had yet to even be invented. As computers began to occupy increasingly important roles in the world of business, however, companies began to worry whether their software—which was, after all, just a collection of algorithms—was patentable.
 
 ## Copyright Law
 
