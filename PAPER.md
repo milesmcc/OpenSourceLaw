@@ -4,7 +4,7 @@ Miles McCain
 _Draft paper; please do not cite without author's permission._
 
 ## Abstract
-In the United States, many legal mechanisms are in place that control and affect the distribution of computer software, including patents, copyright, liability, and trademark. The open source community uses a variety of licenses to explicitly allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restriction. GPLv3 and the Apache 2.0 license are found to be the most secure and unambiguous licenses, while the MIT license and GPLv2 are found to leave important legal mechanisms governing open source software unaddressed.
+In the United States, many legal mechanisms are in place that control and affect the distribution of computer software, including patents, copyright, liability, and trademark. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restriction. GPLv3 and the Apache 2.0 license are found to be the most secure and unambiguous licenses, while the MIT license and GPLv2 are found to leave important legal mechanisms governing open source software unaddressed.
 
 ## Introduction
 
@@ -24,7 +24,7 @@ In 1972, inventor Gary Benson sued for patent infringement for unauthorized use 
 
 There was little precedent at the time as to whether an algorithm could be patented. In 1939 it was ruled that mathematical expressions could not be patented (Mackay Co. v. Radio Corp., 306 U.S. 86), however Benson argued that his patent was not an _equation_ but rather a _process_—a particular way of solving an equation, so to speak. The distinction was lost on the Supreme Court justices, however, and they upheld the lower court's decision. Algorithms, they ruled, could not be patented. (Gottschalk v. Benson, 409 U.S. 63.)
 
-The significance of this decision could not have been anticipated in 1972. Computers had yet to revolutionize the world, and many of the intricacies of modern programming had yet to even be invented. As computers began to occupy increasingly important roles in the world of business, however, companies began to worry whether their software—which was, after all, just a collection of algorithms—was patentable.
+The significance of this decision could not have been anticipated in 1972. Computers had yet to revolutionize the world, and many of the intricacies of modern programming had not been invented. As computers began to occupy increasingly important roles in the world of business, however, companies began to worry whether their software—which was, after all, just a collection of algorithms—was patentable.
 
 ## Copyright Law
 
