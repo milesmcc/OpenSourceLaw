@@ -14,7 +14,7 @@ TODO
 
 ### Overview of Patent Law
 
-Patents allow for ideas—user interfaces, design patterns, and algorithms—to be owned and protected independent of their technical implementation. First defined in the United States Constitution (Art. I § 8.8), patents are an integral part of intellectual property law. They provide inventors with a temporary monopoly—typically twenty years—to their idea, during which no other entity may use the idea without explicit permission from the patent holder. If a patent is infringed, the patent holder may sue for patent infringement and request that the infringer cease their use of the patented idea.
+Patents allow for ideas—user interfaces, API design patterns, and algorithms—to be owned and protected independent of their technical implementation. First defined in the United States Constitution (Art. I § 8.8), patents are an integral part of intellectual property law. They provide inventors with a temporary monopoly—typically twenty years—to their idea, during which no one else may use the idea without explicit permission from the patent holder. If a patent is infringed, the patent holder may sue for patent infringement and request that the infringer cease their use of the patented idea.
 
 Given that patent law is applicable to software (Enfish LLC v. Microsoft, Inc. and DDR Holdings, LLC v. Hotels.com, L.P.) and that patent infringement can lead to both a fine and a legal order to cease use of the patented material, open source licenses must explicitly address patents to ensure that open source software remains available for free use. In order to understand how software licenses can address patents, however, it is necessary to first understand the legal precedents regarding software patents themselves.
 
