@@ -6,12 +6,22 @@ _Draft paper; please do not cite without author's permission._
 _For case subsections, all factual information is drawn directly from the case proceedings. No secondary sources are referenced._
 
 ## Abstract
-In the United States, many legal mechanisms are in place that control and affect the distribution of computer software, including patents, copyright, liability, and trademark. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restriction. GPLv3 and the Apache 2.0 license are found to be the most secure and unambiguous licenses, while the MIT license and GPLv2 are found to leave important legal mechanisms governing open source software unaddressed.
+In the United States, many legal mechanisms are in place that control and affect the distribution of computer software, including patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restriction. GPLv3 and the Apache 2.0 license are found to be the most secure and unambiguous licenses, while the MIT license and GPLv2 are found to leave important legal mechanisms governing open source software unaddressed.
 
 ## Introduction
-TODO
+- brief history of open source
 
-***Thesis.*** Patent, copyright, liability, and trademark are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly address all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed.
+- role of software licenses
+
+- general license comparison, permissive v. copyleft
+
+- mechanisms of control
+
+- legal precedent
+
+- this paper will...
+
+***Thesis.*** Patent, copyright, liability, and warranty are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly define terms to protect against all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed, leaving users _and_ contributors vulnerable to litigation.
 
 ## Patent Law
 ### Background
@@ -192,15 +202,19 @@ At the heart of the case was the question of whether a shrinkwrap license—one 
 _(Note: this ruling was overturned in a later case, but quickly reaffirmed by ProCD, Inc. v. Zeidenberg and later Vernor v. Autodesk, Inc.)_
 
 #### Jacobsen v. Katzer (2008)
-In Jacobsen v. Katzer, a federal appeals court ruled that the General Public License version 3 was enforceable both as a copyright condition _and_ a contract. The case was the first to assert that open source licenses were enforceable. While the ruling regarding GPLv3 in Jacobsen v. Katzer cannot necessarily be generalized to other open source licenses, the highly significant decision asserts that shrinkwrap licenses are valid both as copyright agreements _and_ liability waivers, a ruling applicable to nearly all open source licenses.
+In Jacobsen v. Katzer, a federal appeals court ruled that the Artistic License, an open source software license, was enforceable both as a copyright condition _and_ a contract. The case was the first to assert that open source licenses were enforceable. While the ruling regarding the Artistic License in Jacobsen v. Katzer cannot necessarily be generalized to other open source licenses, the highly significant decision asserts that shrinkwrap licenses are valid both as copyright agreements _and_ liability waivers, a ruling applicable to nearly all open source licenses.
+
+_(See also: `Artifex Software, Inc. v. Hancom, Inc.`)_
 
 ### Summary
 While shrinkwrap licenses have been declared enforceable, the only open source license to have held up in a court of law is GPLv3. The MIT License, GPLv2, and Apache 2.0 have not—no precedent regarding their enforceability exists—and therefore there exists risk that the terms are without weight.
 
 ## Conclusion
-TODO
+Four major legal mechanisms control the use, distribution, and modification of software—patents, copyright, and warranty—and open source licenses are vital in ensuring that both users of and contributors to open source software are protected from litigation. As the prior legal survey and analyses demonstrate, however, not all major open source licenses approach these mechanisms similarly, if at all. `Jacobsen v. Katzer` demonstrated that shrinkwrap-style open source licenses were enforceable, however the case does not speak for the effectiveness of all open source licenses. Indeed, while GPLv3 and Apache 2.0 are effective at protecting against all four mechanisms, GPLv2 left patent grants unaddressed, and the MIT license left both patents and object code copyright completely unaddressed.
 
-What is the use of open source software if the software itself cannot be run?
+Despite its weakness, the MIT license ranks as the most popular in the open source community, with [45% of licensed projects on GitHub](https://github.com/blog/1964-license-usage-on-github-com) using it. The also-weak GPLv2 is second in GitHub popularity, with 13% of projects. Apache 2.0 and GPLv3 lag not far behind, with 11% and 9% usage, respectively.
+
+Instead of using the dangerous MIT license, open source projects wishing to be licensed under non-copyleft terms should instead choose the more-thorough Apache 2.0 license. Similarly, copyleft projects licensed under GPLv2 should update to GPLv3. Otherwise, the projects' users and contributors may find themselves vulnerable to the very litigation from which the licenses were meant to protect.
 
 ---
 
