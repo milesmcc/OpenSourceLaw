@@ -12,6 +12,8 @@ In the United States, many legal mechanisms are in place that control and affect
 
 TODO
 
+***Thesis.*** Patent, copyright, liability, and trademark are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly address all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed.
+
 ## Patent Law
 
 ### Overview of Patent Law
@@ -68,17 +70,50 @@ The Supreme Court decided that CLS Bank's patent was not valid, but did not prov
 _(See also: Bilski v. Kappos, 2010.)_
 
 #### DDR Holdings, LLC v. Hotels.com, L.P. (2014)
-Later in 2014, the Supreme Court would clarify its position regarding software patents. In DDR Holdings, LLC v. Hotels.com, the Supreme Court TODO
+Later in 2014, the Supreme Court would clarify its position regarding software patents. In DDR Holdings, LLC v. Hotels.com, the Supreme Court clarified that non-trivial software could still be patented, but patents with entrepreneurial goals (for example, "retaining control over the attention of the customer") as opposed to technical goals were patent ineligible. (This decision was upheld in 2016 by Enfish LLC v. Microsoft, Inc.)
 
-#### Enfish LLC v. Microsoft, Inc. (2016)
+More importantly, DDR Holdings v. Hotels.com set forth a framework by which patent eligibility of software could be determined. First, the patent filer must prove that the patent is not of an abstract idea, of a solely entrepreneurial goal, or simply a law of nature. Then, the filer must show that their patent is sufficiently complex and novel that it warrants its own patent. While still vague, DDR Holdings v. Hotels.com resolved much of the ambiguity that followed Alice v. CLS Bank and reaffirmed that software patents were, indeed, enforceable.
 
-TODO
+### Effects on Open Source Licensing
+The most notable effects of patent law on the open source community lie in _contributions_. In the open source community, the distinction between _users_ and _producers_ of software is often unclear. While the end-user of a proprietary program cannot be sued for patent infringement (patents restrict production, not use), it is unclear whether a user of a patented open-source library is liable for patent infringement if they make a modification to the program.
 
-### Current Legal Landscape
+> [P]atents applied to a free program could make it effectively proprietary. (GPLv3)
 
-### Consequences for Open Source
+If a software patent holder (under the terms established by DDR Holdings, LLC v. Hotels.com) creates an open source library that implements the patent, users and future contributors must be assured that they are not legally liable for patent infringement by using, modifying, and redistributing the software. DDR Holdings v. Hotels.com and Arrhythmia v. Corazonix demonstrated the wide applicability and enforceability of software patents. If an open source license leaves patents unaddressed, the precedent set by Arrhythmia and DDR Holdings will apply—and this does not bode well for software creators.
 
-### License Comparison
+As such, it is necessary for open source licenses to affirm the user's right to use the software by requiring patent holders who contribute code to waive their rights to the patents satisfied _by_ that code. [GraphQL](http://graphql.org), an open source library by Facebook, implements patent [US 9646028 B2](https://www.google.com/patents/US9646028). Unless Facebook explicitly grants patent rights to the library's users and contributors, any potential use of the library is potential patent infringement (according to, most recently, DDR Holdings v. Hotels.com and Arrhythmia v. Corazonix).
+
+This issue is not hypothetical. During the launch of GraphQL, Facebook failed to explicitly grant patent rights to users of the software, sparking [outrage](https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/): some feared that the publishing of the GraphQL library was an attempt by Facebook to 'bait' companies into patent violation that Facebook could then exploit. While these fears were soon resolved (Facebook officially granted patent rights in the software license not long thereafter), they demonstrate that patent infringement is a very real concern in the open source community, and one that must be addressed by licenses.
+
+#### MIT license
+The MIT license has no explicit patents clause, thereby leaving users of patented MIT software at risk of being sued for patent infringement. This was the situation in consideration in GraphQL: Facebook held a patent over the library and released the code under the MIT license with no formal patent grant to contributors and users. As a result, any user of the GraphQL library in their own product was liable to be sued by Facebook. In this way, the MIT license leaves its users vulnerable.
+
+(Some legal scholars argue that the permissiveness of the MIT license is in and of itself an implicit patents grant, but this argument [carries little weight](https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f).)
+
+#### GPLv2
+The second version of the General Public License addresses patents, but does not contain an express patent grant by contributors to users. Instead, it simply states that if the patent laws of a particular country interfere with any of the terms of the license (for example, free redistribution or modification), the software may not be used at all. This "killswitch" approach to patent licensing incentivizes corporations not to file suit for patent infringement, however it does not _shield_ users and contributors from such suits altogether.
+
+> If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program. (GPLv2 §7)
+
+#### GPLv3
+The third version of the General Public License adds an entire section devoted to patents (§11). The license expressly states that by contributing to the software, contributors grant all users of the software patent rights such that they cannot be sued for patent infringement.
+
+> Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version. (Excerpt from GPLv3 §11.)
+
+GPLv3 comprehensively protects users and contributors from being sued for software patent infringement, and assures that the far-reaching implications of DDR Holdings v. Hotels.com and Arrhythmia v. Corazonix are not used to make free software non-free.
+
+#### Apache 2.0
+Like GPLv3, the second version of the Apache license includes an express grant of patents to all users of the software:
+
+> [E]ach Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work... (Apache 2.0 §3)
+
+In doing so, the Apache license effectively shields its users and contributors against suits of patent infringement.
+
+| MIT | GPLv2 | GPLv3 | Apache 2.0 |
+| --- | ----- | ----- | ---------- |
+| no patent clause ("implicit") | killswitch | express patent grant | express patent grant |
+
+_[[Potential consideration: mention retaliation clauses...]]_
 
 ## Copyright Law
 
@@ -95,6 +130,8 @@ TODO
 ## Conclusion
 
 TODO
+
+What is the use of open source software if the software itself cannot be run?
 
 ---
 
