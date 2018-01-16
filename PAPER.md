@@ -161,10 +161,24 @@ GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code
 
 ## Warranty and Liability Law
 ### Background
+Open source software is offered to the world free of charge, but it nonetheless finds itself subject to the Uniform Commercial Code (UCC), a series of laws designed to protect consumers from negligent or malicious vendors. The UCC states that all sales—open source software distribution included—have an implicit warranty that the items sold or shared are fit for a particular purpose (UCC 2-314: Implied Warranty; Merchantability; Usage of Trade and UCC 2-315: Implied Warranty; Fitness for Particular Purpose.)
 
+To protect open source contributors from being held legally liable for potential issues created by their software, open source licenses must explicitly disclaim all warranty and liability.
+
+### Case Law
+No precedent regarding tort liability disclaimers in open source exists, however the Uniform Commercial Code states that unless overruled by another law, disclaimers defined in valid contracts (open source licenses included; see `Jacobsen v. Katzer (2008)` below) are enforceable.
+
+### Effects on Open Source Licensing
+The MIT license, GPLv2, GPLv3, and Apache 2.0 all disclaim liability and warranty, thereby protecting contributors from litigation over negligence. Unlike with regard to patents and copyrights, in which MIT is consistently insufficient for proper protection, no major open source license is weaker or less robust than any other as it pertains to liability and warranty.
+
+> THE SOFTWARE IS PROVIDED "AS IS", **WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,** INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. **IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,** DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, **TORT OR OTHERWISE,** ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. (MIT License, equivalent clauses: GPLv2 § 11, GPLv3 § 16, Apache 2.0 § 7.)
+
+| MIT | GPLv2 | GPLv3 | Apache 2.0 |
+| --- | ----- | ----- | ---------- |
+| disclaimed | disclaimed | disclaimed | disclaimed |
 
 ## Attribution and Trademark Law
-TODO
+[This section might be added depending on feedback from the class on Monday.]
 
 ## Enforceability of Licenses
 The terms defined in open source licenses only carry force if they are honored in court. If the copyleft requirement of the General Public Licenses were not legally binding, the license would lose its effectiveness. Furthermore, because the terms defined in open source licenses are not negotiated between contributors and individual users (open source licenses are _shrinkwrap_ licenses: contracts that come into effect when the user performs a certain action, such as using or downloading the software), questions of enforceability can be raised.
@@ -218,6 +232,7 @@ What is the use of open source software if the software itself cannot be run?
 * Object code
 * Source code
 * Open source
+* Tort law
 
 ---
 
