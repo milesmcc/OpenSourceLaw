@@ -14,13 +14,14 @@ TODO
 ***Thesis.*** Patent, copyright, liability, and trademark are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly address all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed.
 
 ## Patent Law
+### Background
 Patents allow for ideas—user interfaces, API design patterns, and algorithms—to be owned and protected independent of their technical implementation. First defined in the United States Constitution (Art. I § 8.8), patents are an integral part of intellectual property law. They provide inventors with a temporary monopoly—typically twenty years—to their idea, during which no one else may use the idea without explicit permission from the patent holder. If a patent is infringed, the patent holder may sue for patent infringement and request that the infringer cease their use of the patented idea.
 
 Patent law was first designed in a world without software. The framers of the Constitution could not possibly have imagined today's digital world, and this disconnect is visible when assessing software patent case law. In the early 1970's, when the first software patent court cases arose, it was unclear whether software was even eligible for patent. Since then, various cases have concretely extended patent law to the digital world.
 
 Today, it is affirmed that patent law is applicable to software (Enfish LLC v. Microsoft, Inc. and DDR Holdings, LLC v. Hotels.com, L.P.). Because patent infringement can lead to both a fine and a legal order to cease use of the patented material, open source licenses must explicitly address patents to ensure that licensed software remains available for free use. In order to understand how software licenses can address patents, however, it is necessary to first understand the legal precedents regarding software patents themselves.
 
-### Software Patent Case Law
+### Case Law
 #### Gottschalk v. Benson (1972)
 In 1972, inventor Gary Benson sued for patent infringement for unauthorized use of an algorithm he had patented: the process by which numbers in decimal notation could be transformed into binary notation. Benson claimed that all uses of his algorithm—be they automated by a computer or performed by hand—were subject to his patent. Calling the patented algorithm nothing more than a "law of nature," the court ruled against Benson and declared the patent invalid. Benson appealed, and eventually the case appeared before the Supreme Court. (Gottschalk v. Benson, 409 U.S. 63.)
 
@@ -110,17 +111,49 @@ In doing so, the Apache license effectively shields its users and contributors a
 _[[Potential consideration: mention retaliation clauses...]]_
 
 ## Copyright Law
+### Background
 Unlike software patents, which protect non-abstract ideas, _copyright_ protects source code and compiled binaries—software at large—from unauthorized re-use by third parties. Copyright protects "original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device." (17 U.S.C.A. § 102.)
 
 No special process is needed to protect a work under copyright; unless otherwise specified, any work—be it a piece of software, a painting, or a song—is protected by copyright and all rights are reserved.
 
-To ensure that
+Like patent law, copyright law was established largely before software became prominent. As such, it is necessary to look deeper than 17 U.S.C.A. § 102 (which, unsurprisingly, contains no reference to software) to completely understand copyright law as it relates to software and open source licenses.
+
+### Case Law
+#### Apple Computer, Inc. v. Franklin Computer Corp. (1983)
+In 1982, the Franklin Computer Corporation released the _Franklin Ace 1000_. The machine was a near clone of the Apple II, and Franklin copied significant portions of Apple's operating system for use in its own. Apple, in an effort to retain its market share and stop a product that it believed clearly violated its intellectual property, brought Franklin Computer to court.
+
+There was little ambiguity as to whether Franklin Computer copied Apple's code. The copied sections in questions contained references to `Applesoft` and `James Huston`, an Apple engineer. Franklin Computer did not claim it was innocent—instead, it claimed that object code (compiled binaries) were _not_ subject to copyright.
+
+Franklin Computer Corporation was unable to convince the court that compiled object code was not subject to copyright, and the judge ruled in favor of Apple. The decision affirmed that software—compiled or not—was subject to copyright.
+
+
+
+_(See also: Vernor v. Autodesk, Inc. (2008) and ProCD, Inc. v. Zeidenberg)_
+
+
 
 ## Warranty and Liability Law
 TODO
 
 ## Attribution and Trademark Law
 TODO
+
+## Enforceability of Licenses
+The terms defined in open source licenses only carry force if they are honored in court. If the copyleft requirement of the General Public Licenses were not legally binding, the license would lose its effectiveness. Furthermore, because the terms defined in open source licenses are not negotiated between contributors and individual users (open source licenses are _shrinkwrap_ licenses: contracts that come into effect when the user performs a certain action, such as using or downloading the software), questions of enforceability can be raised.
+
+### Case Law
+#### Step-Saver Data Systems, Inc. v. Wyse Technology (1991)
+In 1992, Step-Saver Data Systems brought Wyse Technology to court for reselling its software as part of a value-added packaged product. Step-Saver Data Systems' software contained a 'shrinkwrap' license—a set of terms that come into effect when the software is used—that allowed for use but not reselling. Wyse Technology negotiated separate terms regarding reselling the software over the phone, but Step-Saver argued that the terms of the shrinkwrap license were not overwritten by the agreement.
+
+At the heart of the case was the question of whether a shrinkwrap license—one that is agreed to without the express action of the user—was enforceable in a court of law. If the court ruled against Step-Saver, all open source licenses—which are themselves shrinkwrap—could be invalidated. Fortunately, the court ruled in favor of Step-Saver, and enforceability was maintained.
+
+_(Note: this ruling was overturned in a later case, but quickly reaffirmed by ProCD, Inc. v. Zeidenberg and later Vernor v. Autodesk, Inc.)_
+
+#### Jacobsen v. Katzer (2008)
+In Jacobsen v. Katzer, a federal appeals court ruled that the General Public License version 3 was enforceable both as a copyright condition _and_ a contract. The case was the first to assert that open source licenses were enforceable. While the ruling regarding GPLv3 in Jacobsen v. Katzer cannot necessarily be generalized to other open source licenses, the highly significant decision asserts that shrinkwrap licenses are valid both as copyright agreements _and_ liability waivers, a ruling applicable to nearly all open source licenses.
+
+### Summary
+While shrinkwrap licenses have been declared enforceable, the only open source license to have held up in a court of law is GPLv3. The MIT License, GPLv2, and Apache 2.0 have not—no precedent regarding their enforceability exists—and therefore there exists risk that the terms are without weight.
 
 ## Conclusion
 TODO
