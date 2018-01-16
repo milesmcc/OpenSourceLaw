@@ -3,39 +3,38 @@
 
 _Draft paper; please do not cite without author's permission._
 
-_For case subsections, all factual information is drawn directly from the case proceedings. No secondary sources are referenced._
+_For case subsections, all factual information is drawn directly from the case proceedings._
 
 ## Abstract
 In the United States, many legal mechanisms are in place that control and affect the distribution of computer software, including patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restriction. GPLv3 and the Apache 2.0 license are found to be the most secure and unambiguous licenses, while the MIT license and GPLv2 are found to leave important legal mechanisms governing open source software unaddressed.
 
 ## Introduction
-- brief history of open source
+The open source community is predicated on the free sharing of software. For the open source community to thrive, it must ensure that its participants—contributors to software and the users of that software alike—are legally guaranteed the right to use, share, and modify the software.
 
-- role of software licenses
+Four major legal mechanisms restrict the free flow of software. _Patents_ allow companies to claim temporary exclusive rights to technologies independent of their software implementation. _Copyright_ prevents the unauthorized redistribution or use of software—compiled or otherwise. _Warranty_ and _liability_ hold software contributors legally liable for problems caused by their projects. In order for software projects maintain their freedom in the face of these legal mechanisms, the projects use _open source software licenses_.
 
-- general license comparison, permissive v. copyleft
+While not all open source licenses are the same, as this paper will demonstrate, all open source licenses do share the common goal of ensuring that the rights of contributors and users to use, modify, and distribute the software are not restricted or otherwise burdened by litigation. Some licenses may require that derivative works and connected software be similarly licensed ("copyleft"), while others may place few—if any—restrictions on how the software may be used.
 
-- mechanisms of control
+The four most common open source licenses are, in decreasing order of popularity, the MIT license, the GNU General Public License version 2 (GPLv2), the Apache 2.0 License (Apache 2.0), and the GNU General Public License version 3 (GPLv3). [(Source.)](https://github.com/blog/1964-open-source-license-usage-on-github-com) The MIT license and Apache 2.0 are permissive, while the GNU licenses (GPLv2 and GPLv3) are copyleft.
 
-- legal precedent
+This paper will perform a comprehensive survey of the case law pertaining to the four mechanisms of software control—patent, copyright, warranty, and liability—in order to understand the legal strengths and weaknesses of the four most common open source licenses. Special attention will be given to the enforceability of each license and the historical intricacies of the mechanisms they respond to.
 
-- this paper will...
-
-***Thesis.*** Patent, copyright, liability, and warranty are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly define terms to protect against all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed, leaving users _and_ contributors vulnerable to litigation.
+### Thesis
+Patent, copyright, liability, and warranty are complex legal mechanisms that control the distribution, modification, and use of software. In order to be effective in securing the free or open use of software, an open source license must explicitly define terms to protect against all four mechanisms. Unfortunately, not all open source licenses do: the MIT license and GPLv2 leave important legal considerations regarding patent and trademark unaddressed, leaving users _and_ contributors vulnerable to litigation.
 
 ## Patent Law
 ### Background
-Patents allow for ideas—user interfaces, API design patterns, and algorithms—to be owned and protected independent of their technical implementation. First defined in the United States Constitution (Art. I § 8.8), patents are an integral part of intellectual property law. They provide inventors with a temporary monopoly—typically twenty years—to their idea, during which no one else may use the idea without explicit permission from the patent holder. If a patent is infringed, the patent holder may sue for patent infringement and request that the infringer cease their use of the patented idea.
+Patents allow for ideas—user interfaces, API design patterns, and algorithms—to be owned and protected independent of their technical implementation. First defined in the United States Constitution (`Art. I § 8.8`), patents are an integral part of intellectual property law. They provide inventors with a temporary monopoly—typically twenty years—to their idea, during which no one else may use the idea without explicit permission from the patent holder. If a patent is infringed, the patent holder may sue for patent infringement and request that the infringer cease their use of the patented idea.
 
 Patent law was first designed in a world without software. The framers of the Constitution could not possibly have imagined today's digital world, and this disconnect is visible when assessing software patent case law. In the early 1970's, when the first software patent court cases arose, it was unclear whether software was even eligible for patent. Since then, various cases have concretely extended patent law to the digital world.
 
-Today, it is affirmed that patent law is applicable to software (Enfish LLC v. Microsoft, Inc. and DDR Holdings, LLC v. Hotels.com, L.P.). Because patent infringement can lead to both a fine and a legal order to cease use of the patented material, open source licenses must explicitly address patents to ensure that licensed software remains available for free use. In order to understand how software licenses can address patents, however, it is necessary to first understand the legal precedents regarding software patents themselves.
+Today, it is affirmed that patent law is applicable to software (see `DDR Holdings, LLC v. Hotels.com, L.P.` below; see also `Enfish LLC v. Microsoft, Inc.`). Because patent infringement can lead to both a fine and a legal order to cease use of the patented material, open source licenses must explicitly address patents to ensure that licensed software remains available for free use. In order to understand how software licenses can address patents, however, it is necessary to first understand the legal precedents regarding software patents themselves.
 
 ### Case Law
-#### Gottschalk v. Benson (1972)
-In 1972, inventor Gary Benson sued for patent infringement for unauthorized use of an algorithm he had patented: the process by which numbers in decimal notation could be transformed into binary notation. Benson claimed that all uses of his algorithm—be they automated by a computer or performed by hand—were subject to his patent. Calling the patented algorithm nothing more than a "law of nature," the court ruled against Benson and declared the patent invalid. Benson appealed, and eventually the case appeared before the Supreme Court. (Gottschalk v. Benson, 409 U.S. 63.)
+#### `Gottschalk v. Benson (1972)``
+In 1972, inventor Gary Benson sued for patent infringement for unauthorized use of an algorithm he had patented: the process by which numbers in decimal notation could be transformed into binary notation. Benson claimed that all uses of his algorithm—be they automated by a computer or performed by hand—were subject to his patent. Calling the patented algorithm nothing more than a "law of nature," the court ruled against Benson and declared the patent invalid. Benson appealed, and eventually the case appeared before the Supreme Court.
 
-There was little precedent at the time as to whether an algorithm could be patented. In 1939 it was ruled that mathematical expressions could not be patented (Mackay Co. v. Radio Corp., 306 U.S. 86), however Benson argued that his patent was not an _equation_ but rather a _process_—a particular way of solving an equation, so to speak. The distinction was lost on the Supreme Court justices, however, and they upheld the lower court's decision. Algorithms, they ruled, could not be patented. (Gottschalk v. Benson, 409 U.S. 63.)
+There was little precedent at the time as to whether an algorithm could be patented. In 1939 it was ruled that mathematical expressions could not be patented (see `Mackay Co. v. Radio Corp., 306 U.S. 86`), however Benson argued that his patent was not an _equation_ but rather a _process_—a particular way of solving an equation, so to speak. The distinction was lost on the Supreme Court justices, however, and they upheld the lower court's decision. Algorithms, they ruled, could not be patented.
 
 The significance of this decision could not have been anticipated in 1972. Computers had yet to revolutionize the world, and many of the intricacies of modern programming had not been invented. As computers began to occupy increasingly important roles in the world of business, however, companies began to worry whether their software—which was, after all, just a collection of algorithms—was patentable.
 
