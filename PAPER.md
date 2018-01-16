@@ -229,7 +229,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * `Parker v. Flook` (1978)
 * `Diamond v. Diehr` (1981)
 * `Arrhythmia Research Technology, Inc. v. Corazonix Corporation` (1992)
-* Alice v. CLS Bank 573 U.S., 134 S. Ct. 2347` (2014)
+* `Alice v. CLS Bank 573 U.S., 134 S. Ct. 2347` (2014)
 * `17 U.S.C.A. § 102.`
 * `Apple Computer, Inc. v. Franklin Computer Corp.` (1983)
 * `Computer Associates International, Inc. v. Altai, Inc.` (1992)
