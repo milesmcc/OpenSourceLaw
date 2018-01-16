@@ -126,10 +126,10 @@ There was little ambiguity as to whether Franklin Computer copied Apple's code. 
 
 Franklin Computer Corporation was unable to convince the court that compiled object code was not subject to copyright, and the judge ruled in favor of Apple. The decision affirmed that software—compiled or not—was subject to copyright.
 
+#### Computer Associates International, Inc. v. Altai, Inc. (1992)
+`Apple v. Franklin` asserted that compiled computer code was copyrightable, but set no precedent regarding the copyright status of distinct user interface elements. In 1992, Computer Associates International (CAI) sued Altai for copyright infringement. CAI claimed that Altai had copied an element of its user interface (UI) in its own product, and claimed that the UI was subject to copyright. Altai, in its defense, claimed that while computer code was copyrightable, non-literal elements of software—qualitative components such as user experience and user interface—were not.
 
-
-_(See also: Vernor v. Autodesk, Inc. (2008) and ProCD, Inc. v. Zeidenberg)_
-
+The court ultimately decided in favor of Altai, declaring that user interface was _not_ subject to copyright. Also significant was the court's use of the [Abstraction-Filtration-Comparison test](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr) to determine the copyright eligibility of the software. While the Abstraction-Filtration-Comparison test had long been used in courtrooms to determine the copyright status of artistic works, `CAI v. Altai` asserted that the test was also applicable to software.
 
 
 ## Warranty and Liability Law
