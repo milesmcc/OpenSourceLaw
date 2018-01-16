@@ -144,6 +144,21 @@ _A line-by-line comparison of Google's implementation of `PolicyNodeImpl.java` v
 
 Four years later, the case was finally decided in favor of Google. The court declared that API schemas were not subject to copyright, and that the small amount of shared code was a coincidence and not a matter of copyright violation. [needs a better kicker, a 'so what']
 
+### Effects on Open Source Licensing
+Copyright is the most well-known mechanism of software protection, and is therefore a protection that is explicitly addressed in all four major open-source licenses. Still, not all licenses handle copyright identically. `Apple Computer, Inc. v. Franklin Computer Corp.` declared that both object code and source code were subject to copyright, but some address both object code and source code (GPLv2, GPLv3, and Apache 2.0), while others only implicitly address code (MIT).
+
+#### MIT license
+The MIT license does not include any reference to object code that would release the rights—implicitly or explicitly—for its reuse and redistribution. By virtue of being a shrinkwrap license included with the source of a program, the MIT license does not _explicitly_ grant usage rights to resulting compiled binaries. As a result, compiled binaries of MIT licensed code may not be subject to the same terms and releases as the source code, putting users at risk of copyright infringement.
+
+#### GPLv2, GPLv3, and Apache 2.0
+GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code in the license terms. They declare that the resulting object code generated from the licensed source code is subject to the same terms and conditions as the source code:
+
+> ...each Contributor hereby grants to You a [...] license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works **in Source or Object form**. (Apache 2.0 § 2, equivalent clauses: GPLv2 § 3 and GPLv3 § 6.)
+
+| MIT | GPLv2 | GPLv3 | Apache 2.0 |
+| --- | ----- | ----- | ---------- |
+| rights granted, but no explicit reference to object code | rights granted for both source and object code | rights granted for both source and object code | rights granted for both source and object code |
+
 ## Warranty and Liability Law
 TODO
 
@@ -195,6 +210,13 @@ What is the use of open source software if the software itself cannot be run?
 * GPLv2 license
 * GPLv3 license
 * Apache 2.0 license
+
+---
+
+## Glossary
+* Object code
+* Source code
+* Open source
 
 ---
 
