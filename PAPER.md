@@ -1,4 +1,4 @@
-# Nothing Is Implied: Legal Loopholes in Popular Open Source Licenses
+# Nothing Is Implied: The Dangers of Vague Licenses
 Miles McCain
 
 _Draft paper; please do not cite without author's permission._
