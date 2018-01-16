@@ -210,7 +210,7 @@ Four major legal mechanisms control the use, distribution, and modification of s
 
 Despite its weakness, the MIT license ranks as the most popular in the open source community, with [45% of licensed projects on GitHub](https://github.com/blog/1964-license-usage-on-github-com) using it. The also-weak GPLv2 is second in GitHub popularity, with 13% of projects. Apache 2.0 and GPLv3 lag not far behind, with 11% and 9% usage, respectively.
 
-Instead of using the dangerous MIT license, open source projects wishing to be licensed under non-copyleft terms should instead choose the more-thorough Apache 2.0 license. Similarly, copyleft projects licensed under GPLv2 should update to GPLv3. Otherwise, the projects' users and contributors may find themselves vulnerable to the very litigation from which the licenses were meant to protect.
+Instead of using the dangerous MIT license, open source projects wishing to be licensed under non-copyleft terms should instead choose the more thorough Apache 2.0 license. Similarly, copyleft projects licensed under GPLv2 should update to GPLv3. Otherwise, the projects' users and contributors may find themselves vulnerable to the very litigation from which the licenses were meant to protect.
 
 ---
 
