@@ -1,4 +1,4 @@
-# Nothing Is Implied: a Comprehensive Survey of Software Litigation to Identify Weaknesses of Popular Open-Source Licenses
+# Nothing Is Implied: a Comprehensive Survey of Software Litigation and Open Source Licensing in the United States
 **by Miles McCain**
 
 _Draft paper; please do not cite without author's permission._
