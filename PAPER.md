@@ -129,8 +129,20 @@ Franklin Computer Corporation was unable to convince the court that compiled obj
 #### Computer Associates International, Inc. v. Altai, Inc. (1992)
 `Apple v. Franklin` asserted that compiled computer code was copyrightable, but set no precedent regarding the copyright status of distinct user interface elements. In 1992, Computer Associates International (CAI) sued Altai for copyright infringement. CAI claimed that Altai had copied an element of its user interface (UI) in its own product, and claimed that the UI was subject to copyright. Altai, in its defense, claimed that while computer code was copyrightable, non-literal elements of software—qualitative components such as user experience and user interface—were not.
 
-The court ultimately decided in favor of Altai, declaring that user interface was _not_ subject to copyright. Also significant was the court's use of the [Abstraction-Filtration-Comparison test](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr) to determine the copyright eligibility of the software. While the Abstraction-Filtration-Comparison test had long been used in courtrooms to determine the copyright status of artistic works, `CAI v. Altai` asserted that the test was also applicable to software.
+The court ultimately decided in favor of Altai, declaring that user interface was _not_ subject to copyright. Also significant was the court's use of the [Abstraction-Filtration-Comparison test](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr) to determine the copyright eligibility of the software. While the Abstraction-Filtration-Comparison test had long been used in courtrooms to determine the copyright status of artistic works, `CAI v. Altai` asserted that the test was also applicable to software, setting a standard for the procedure by which software copyright was to be evaluated.
 
+
+#### Oracle America, Inc. v. Google, Inc. (2012-2016)
+In 2012, Oracle sued Google for copyright infringement. Oracle claimed that Google had infringed on its copyright of Java in creating the Android operating system. Oracle made two primary claims: that Google's reimplementation of the Java standard library was a copyright violation because Google used the same method and class signatures to achieve compatibility; and that Google copied a piece of code verbatim from Oracle's Java implementation into its own.
+
+As of 2010, the the Java standard library is [open source](http://mail.openjdk.java.net/pipermail/build-dev/2010-December/003881.html). Still, Oracle claimed that Google's reimplementation of the API library using the same method signatures—method names, arguments, and modifiers—violated its copyright. If the court ruled in favor of Oracle, API designs—independent of implementation itself—would become subject to copyright.
+
+Oracle also claimed that Google had copied a small amount of code from Oracle's codebase into its own. Because source code (in addition to object code) was considered to be subject to copyright in `Apple v. Franklin`, Google would have little recourse if the court ruled against it. Still, Google argued that the code in question was trivial and therefore not subject to copyright.
+
+![A line-by-line comparison of Google's code versus Oracle's code.](images/Oracle_v_Google_Code.jpg)
+_A line-by-line comparison of Google's implementation of `PolicyNodeImpl.java` versus Oracle's implementation. (Source: court proceedings of `Oracle America, Inc. v. Google, Inc.`)_
+
+Four years later, the case was finally decided in favor of Google. The court declared that API schemas were not subject to copyright, and that the small amount of shared code was a coincidence and not a matter of copyright violation. [needs a better kicker, a 'so what']
 
 ## Warranty and Liability Law
 TODO
