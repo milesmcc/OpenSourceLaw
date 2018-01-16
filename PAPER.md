@@ -1,4 +1,4 @@
-# Nothing Is Implied: The Dangers of Vague Licenses
+# Nothing Is Implied: a Comprehensive Survey of Software Litigation to Identify Weaknesses of Popular Open-Source Licenses
 Miles McCain
 
 _Draft paper; please do not cite without author's permission._
@@ -160,7 +160,8 @@ GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code
 | rights granted, but no explicit reference to object code | rights granted for both source and object code | rights granted for both source and object code | rights granted for both source and object code |
 
 ## Warranty and Liability Law
-TODO
+### Background
+
 
 ## Attribution and Trademark Law
 TODO
