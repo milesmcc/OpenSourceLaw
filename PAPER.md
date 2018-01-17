@@ -114,8 +114,6 @@ In doing so, the Apache license effectively shields its users and contributors a
 | --- | ----- | ----- | ---------- |
 | no patent clause ("implicit") | killswitch | express patent grant | express patent grant |
 
-_[[Potential consideration: mention retaliation clauses...]]_
-
 # Copyright Law
 Unlike software patents, which protect non-abstract ideas, _copyright_ protects source code and compiled binaries—software at large—from unauthorized re-use by third parties. Copyright protects "original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device." (`17 U.S.C.A. § 102.`)
 
@@ -210,7 +208,7 @@ _(See also: `Artifex Software, Inc. v. Hancom, Inc.`, where GPLv3 was help up in
 While shrinkwrap licenses have been declared enforceable, the only open source license to have held up in a court of law is the Artistic License and GPLv3. The MIT License, GPLv2, and Apache 2.0 have not—no legal precedent regarding their enforceability exists—and therefore there exists risk that the terms are without weight.
 
 # Conclusion
-Four major legal mechanisms control the use, distribution, and modification of software—patents, copyright, and warranty—and open source licenses are vital in ensuring that both users of and contributors to open source software are protected from litigation. As the prior legal survey and analyses demonstrate, however, not all major open source licenses approach these mechanisms similarly, if at all. `Jacobsen v. Katzer` demonstrated that shrinkwrap-style open source licenses were enforceable, however the case does not speak for the effectiveness of all open source licenses. Indeed, while GPLv3 and Apache 2.0 are effective at protecting against all four mechanisms, GPLv2 left patent grants unaddressed, and the MIT license left both patents and object code copyright completely unaddressed.
+Four major legal mechanisms control the use, distribution, and modification of software—patents, copyright, warranty, and liability—and open source licenses are vital in ensuring that both users of and contributors to open source software are protected from litigation. As the prior legal survey and analyses demonstrate, however, not all major open source licenses approach these mechanisms similarly, if at all. `Jacobsen v. Katzer` demonstrated that shrinkwrap-style open source licenses were enforceable, however the case does not speak for the effectiveness of all open source licenses. Indeed, while GPLv3 and Apache 2.0 are effective at protecting against all four mechanisms, GPLv2 left patent grants unaddressed, and the MIT license left both patents and object code copyright completely unaddressed.
 
 Despite its weakness, the MIT license ranks as the most popular in the open source community, with [45% of licensed projects on GitHub](https://github.com/blog/1964-license-usage-on-github-com) using it. The also-weak GPLv2 is second in GitHub popularity, with 13% of projects. Apache 2.0 and GPLv3 lag not far behind, with 11% and 9% usage, respectively.
 
