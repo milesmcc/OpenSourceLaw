@@ -1,8 +1,6 @@
----
-title: "Nothing Is Implied: a Comprehensive Survey of Software Litigation and Open Source Licensing in the United States"
-date: "January 2018"
-author: "R. Miles McCain"
----
+# Nothing Is Implied: a Comprehensive Survey of Software Litigation and Open Source Licensing in the United States"
+January 2018
+R. Miles McCain
 
 _Draft paper; please do not cite without author's permission._
 
@@ -110,9 +108,14 @@ Like GPLv3, the second version of the Apache license includes an express grant o
 
 In doing so, the Apache license effectively shields its users and contributors against suits of patent infringement.
 
-| MIT | GPLv2 | GPLv3 | Apache 2.0 |
-| --- | ----- | ----- | ---------- |
-| no patent clause ("implicit") | killswitch | express patent grant | express patent grant |
+### Summary
+**MIT License**: no patent clause
+
+**GPLv2**: killswitch
+
+**GPLv3**: express patent grant
+
+**Apache 2.0**: express patent grant
 
 # Copyright Law
 Unlike software patents, which protect non-abstract ideas, _copyright_ protects source code and compiled binaries—software at large—from unauthorized re-use by third parties. Copyright protects "original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device." (`17 U.S.C.A. § 102.`)
@@ -158,13 +161,13 @@ GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code
 > ...each Contributor hereby grants to You a [...] license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works **in Source or Object form**. (Apache 2.0 § 2, equivalent clauses: GPLv2 § 3 and GPLv3 § 6.)
 
 ### Summary
-**MIT License**: rights granted, but no explicit reference to object code.
+**MIT License**: rights granted, but no explicit reference to object code
 
-**GPLv2**: rights granted for both source and object code.
+**GPLv2**: rights granted for both source and object code
 
-**GPLv3**: rights granted for both source and object code.
+**GPLv3**: rights granted for both source and object code
 
-**Apache 2.0**: rights granted for both source and object code.
+**Apache 2.0**: rights granted for both source and object code
 
 # Warranty and Liability Law
 Open source software is offered to the world free of charge, but it nonetheless finds itself subject to the `Uniform Commercial Code` (`UCC`), a series of laws designed to protect consumers from negligent or malicious vendors. The `UCC` states that all sales—open source software distribution included—have an implicit warranty that the items sold or shared are fit for a particular purpose (`UCC 2-314`: Implied Warranty; Merchantability; Usage of Trade and `UCC 2-315`: Implied Warranty; Fitness for Particular Purpose.)
@@ -180,13 +183,13 @@ The MIT license, GPLv2, GPLv3, and Apache 2.0 all disclaim liability and warrant
 > THE SOFTWARE IS PROVIDED "AS IS", **WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,** INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. **IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,** DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, **TORT OR OTHERWISE,** ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. (MIT License, equivalent clauses: GPLv2 § 11, GPLv3 § 16, Apache 2.0 § 7.)
 
 ### Summary
-**MIT License**: disclaimed.
+**MIT License**: disclaimed
 
-**GPLv2**: disclaimed.
+**GPLv2**: disclaimed
 
-**GPLv3**: disclaimed.
+**GPLv3**: disclaimed
 
-**Apache 2.0**: disclaimed.
+**Apache 2.0**: disclaimed
 
 # Enforceability of Licenses
 The terms defined in open source licenses only carry force if they are honored in court. If the copyleft requirement of the General Public Licenses were not legally binding, the license would lose its effectiveness. Furthermore, because the terms defined in open source licenses are not negotiated between contributors and individual users (open source licenses are _shrinkwrap_ licenses: contracts that come into effect when the user performs a certain action, such as using or downloading the software), questions of enforceability can be raised.
@@ -242,9 +245,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * `Jacobsen v. Katzer` (2008)
 * `Step-Saver Data Systems, Inc. v. Wyse Technology` (1991)
 
----
-
-## Glossary
+# Glossary
 * **Object code** — machine-generated code created from human-readable source code
 * **Source code** — human readable and modifiable code that is often _compiled_ into machine-readable code
 * **Tort law** — the field of law that handles civil wrongs causing loss or harm.
