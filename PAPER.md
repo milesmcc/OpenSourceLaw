@@ -5,7 +5,7 @@ by [R. Miles McCain](https://rmrm.io)
 
 ---
 
-_This article is not legal advice, and nothing in it should be interpreted as such. A general familiarity with the fundamentals of computer science and the United States justice system is assumed. For case subsections, all factual information is drawn directly from the case proceedings. Legal references `look like this`, and cases are linked in their respective headers._
+_This article is not legal advice, and nothing in it should be interpreted as such. A general familiarity with the fundamentals of computer science and the United States justice system is assumed. For case subsections, all factual information is drawn directly from the case proceedings. In-text citations are provided via hyperlinks when available. Legal references `look like this`, and case proceedings are linked in their respective headers._
 
 ---
 
@@ -272,7 +272,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * Walsh, Dennis. "React's New MIT License: The Circus Enters Its Third Ring ." Medium. September 25, 2017. Accessed January 17, 2018. https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f.
 
 # Acknowledgements
-I would like to especially thank Darcy Meyer, Nicholas Miklaucic, Anlan Du, and Celia Egler for their feedback on this article, as well as Nalu Concepcion, Malcolm Essaid, and Dr. Nicholas Zufelt.
+I would like to especially thank Darcy Meyer, Nicholas Miklaucic, Anlan Du, and Celia Egler for their contributions and feedback on this article, as well as Nalu Concepcion, Malcolm Essaid, and Dr. Nicholas Zufelt.
 
 ---
 
