@@ -43,7 +43,7 @@ The significance of this decision could not have been anticipated in 1972. Compu
 _See also: [`Parker v. Flook`](https://www.oyez.org/cases/1977/77-642) (1978)_
 
 ### [`Diamond v. Diehr`](https://www.oyez.org/cases/1980/79-1112) (1981)
-A patent to the "[process] for molding raw, uncured synthetic rubber into cured precision products" using a machine was filed by James Diehr in 1975. Part of the patent was the use of a mathematical equation (the Arrhenius equation) solved by a computer. Unlike in `Benson`, Diehr was not patenting the computer or program itself—instead, he claimed only that collective system was his patent. Initial reviewers of the patent were sufficiently convinced of Diehr's eligibility, and the filing raised few eyebrows—until a later patent examiner argued that the use of a mathematical equation run by a computer made the _entire process_ ineligible for a patent under the Benson ruling.
+Following `Benson`, computers became more deeply integrated in modern industry—and patents followed suit. In 1975, a patent to the "[process] for molding raw, uncured synthetic rubber into cured precision products" using a machine was filed by James Diehr. Part of the patent was the use of a mathematical equation (the Arrhenius equation) solved by a computer. Unlike in `Benson`, Diehr was not patenting the computer or program itself—instead, he claimed only that collective system was his patent. Initial reviewers of the patent were sufficiently convinced of Diehr's eligibility, and the filing raised few eyebrows—until a later patent examiner argued that the use of a mathematical equation run by a computer made the _entire process_ ineligible for a patent under the Benson ruling.
 
 The case made its way to the Supreme Court. If the justices decided in favor of the examiner, any patent that made use of a mathematical equation—even if only as part of a subprocess—would be ineligible for protection. If the justices filed in favor of Diehr, computer manufacturers would rejoice, now secure in their ability to patent their products incorporating computer software.
 
@@ -138,7 +138,7 @@ Franklin Computer Corporation was unable to convince the court that compiled obj
 The court ultimately decided in favor of Altai, declaring that user interface was _not_ subject to copyright. Also significant was the court's use of the [Abstraction-Filtration-Comparison test](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr) (AFC) to determine copyright eligibility of software. While AFC had long been used in courtrooms to determine the copyright status of artistic works, `CAI v. Altai` asserted that the test was also applicable to software, setting a standard and concrete procedure by which software copyright was to be evaluated.
 
 ### [`Oracle America, Inc. v. Google, Inc.`](https://scholar.google.com/scholar_case?case=15197092051369647665&q=Oracle+America,+Inc.+v.+Google,+Inc.&hl=en&as_sdt=2006&as_vis=1) (2012-2016)
-In 2012, Oracle sued Google for copyright infringement, claiming that Google had infringed on its copyright of Java during the creation of the Android operating system. Oracle made two primary claims: that Google's reimplementation of the Java standard library was a copyright violation because Google used the same method and class signatures to achieve compatibility; and that Google copied a piece of code verbatim from Oracle's Java implementation into its own.
+Twenty years later, software copyright returned to the vanguard of legal discourse. In 2012, Oracle sued Google for copyright infringement, claiming that Google had infringed on its copyright of Java during the creation of the Android operating system. Oracle made two primary claims: that Google's reimplementation of the Java standard library was a copyright violation because Google used the same method and class signatures to achieve compatibility; and that Google copied a piece of code verbatim from Oracle's Java implementation into its own.
 
 As of 2010, the Java standard library is [open source](http://mail.openjdk.java.net/pipermail/build-dev/2010-December/003881.html). Still, Oracle claimed that Google's reimplementation of the API library using the same method signatures—method names, arguments, and modifiers—to maintain cross-compatibility violated its copyright. If the court ruled in favor of Oracle, API structures—independent of their implementations—would become subject to copyright, and open source reimplementations of proprietary APIs would become illegal.
 
@@ -204,7 +204,7 @@ At the heart of the case was the question of whether a shrinkwrap license—one 
 _Note: this ruling was overturned in a later case, but quickly reaffirmed by [`ProCD, Inc. v. Zeidenberg`](https://scholar.google.com/scholar_case?case=11811009805458694240&q=ProCD,+Inc.+v.+Zeidenberg&hl=en&as_sdt=2006&as_vis=1) (1996) and later [`Vernor v. Autodesk, Inc.`](https://scholar.google.com/scholar_case?case=10742056384168408518&q=Vernor+v.+Autodesk,+Inc.&hl=en&as_sdt=2006&as_vis=1) (2010)_
 
 ### [`Jacobsen v. Katzer`](https://scholar.google.com/scholar_case?case=17776182574171214893&q=Jacobsen+v.+Katzer&hl=en&as_sdt=2006&as_vis=1) (2008)
-In `Jacobsen v. Katzer`, a federal appeals court ruled that the Artistic License, an open source software license, was enforceable both as a copyright condition _and_ a contract. The case was the first to assert that open source licenses were enforceable. While the ruling regarding the Artistic License in `Jacobsen v. Katzer` cannot necessarily be generalized to other open source licenses, the highly significant decision asserts that shrinkwrap licenses are valid both as copyright agreements _and_ liability waivers, a ruling applicable to nearly all open source licenses.
+While `Step-Saver Data Systems, Inc. v. Wyse Technology` confirmed that shrinkwrap software licenses were valid, until `Jacobsen v. Katzer` in 2008 the precedent had never been applied to _open source licenses_. In `Jacobsen v. Katzer`, a federal appeals court ruled that the [Artistic License](https://opensource.org/licenses/artistic-license-2.0), an open source software license, was enforceable both as a copyright condition _and_ a contract. The case was the first to assert that open source licenses were enforceable. While the ruling regarding the Artistic License in `Jacobsen v. Katzer` cannot necessarily be generalized to other open source licenses, the highly significant decision asserts that shrinkwrap licenses are valid both as copyright agreements _and_ liability waivers, a ruling applicable to nearly all open source licenses.
 
 _See also: [`Artifex Software, Inc. v. Hancom, Inc.`](https://scholar.google.com/scholar_case?case=8793820917476297283&q=Artifex+Software,+Inc.+v.+Hancom,+Inc.&hl=en&as_sdt=2006&as_vis=1) (2017), where the copyleft requirement of GPLv3 was held up in a court of law._
 
@@ -249,11 +249,11 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * T. Randolph Beard, George S. Ford, Thomas M. Koutsky & Lawrence J. Spiwak, Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009). Available at: http://repository.jmls.edu/jitpl/vol27/iss2/1
 
 ## Digital
-* "Oracle v. Google." Electronic Frontier Foundation. June 14, 2017. Accessed January 17, 2018. https://www.eff.org/cases/oracle-v-google.
-
-* "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
-
 * "Apache License, Version 2.0." Apache License, Version 2.0 | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/Apache-2.0.
+
+* "Artistic License 2.0." Artistic License 2.0 | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/artistic-license-2.0.
+
+* Balter, Ben. "Open source license usage on GitHub.com." GitHub. March 09, 2015. Accessed January 17, 2018. https://github.com/blog/1964-open-source-license-usage-on-github-com.
 
 * "Copyright Law. Scope of Protection of Non-Literal Elements of Computer Programs. Second Circuit Applies an "Abstraction-Filtration-Comparison" Test. Computer Associates International, Inc. v. Altai, Inc., Nos. 91-7893, 91-7935, 1992 U. S. App. LEXIS 14305 (2d Cir. June 22, 1992)." Harvard Law Review 106, no. 2 (1992): 510. doi:10.2307/1341709.
 
@@ -263,7 +263,9 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 
 * O'Hair, Kelly. "OpenJDK7 and OpenJDK6 Binary Plugs Logic Removed." OpenJDK Pipermail Listserv. December 30, 2010. Accessed January 17, 2018. http://mail.openjdk.java.net/pipermail/build-dev/2010-December/003881.html.
 
-* Balter, Ben. "Open source license usage on GitHub.com." GitHub. March 09, 2015. Accessed January 17, 2018. https://github.com/blog/1964-open-source-license-usage-on-github-com.
+* "Oracle v. Google." Electronic Frontier Foundation. June 14, 2017. Accessed January 17, 2018. https://www.eff.org/cases/oracle-v-google.
+
+* "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
 
 * "The MIT License." The MIT License | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/MIT.
 
