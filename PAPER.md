@@ -222,38 +222,38 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 
 # References, Statutes, and Cases Considered
 (In order of appearance.)
-#. https://github.com/blog/1964-open-source-license-usage-on-github-com
-#. https://opensource.org/licenses/MIT
-#. https://opensource.org/licenses/GPL-2.0
-#. https://opensource.org/licenses/Apache-2.0
-#. https://opensource.org/licenses/GPL-3.0
-#. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator
-#. [`Enfish LLC v. Microsoft, Inc.`](https://scholar.google.com/scholar_case?case=14524935561110783952&hl=en&as_sdt=6&as_vis=1&oi=scholarr)
-#. [`Gottschalk v. Benson`](https://www.oyez.org/cases/1972/71-485)
-#. [Mackay Co. v. Radio Corp.](https://supreme.justia.com/cases/federal/us/306/86/case.html)
-#. [`Parker v. Flook`](https://www.oyez.org/cases/1977/77-642)
-#. [`Diamond v. Diehr`](https://www.oyez.org/cases/1980/79-1112)
-#. [`Arrhythmia Research Technology, Inc. v. Corazonix Corporation`](https://scholar.google.com/scholar_case?case=204952289152101012&q=Arrhythmia+Research+Technology,+Inc.+v.+Corazonix+Corporation&hl=en&as_sdt=2006&as_vis=1)
-#. [`Alice Corporation v. CLS Bank International`](https://www.oyez.org/cases/2013/13-298)
-#. [`Bilski v. Kappos`](https://www.oyez.org/cases/2009/08-964)
-#. [`DDR Holdings, LLC v. Hotels.com, L.P.`](https://law.justia.com/cases/federal/appellate-courts/cafc/13-1505/13-1505-2014-12-05.html)
-#. https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/
-#. https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f
-#. `17 U.S.C.A. § 102.`
-#. [`Apple Computer, Inc. v. Franklin Computer Corp.`](https://scholar.google.com/scholar_case?case=10063204125696546680&q=Apple+Computer,+Inc.+v.+Franklin+Computer+Corp.&hl=en&as_sdt=2006&as_vis=1)
-#. [`Computer Associates International, Inc. v. Altai, Inc.`](https://cyber.harvard.edu/people/tfisher/IP/1992%20Altai.pdf)
-#. https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr
-#. [`Oracle America, Inc. v. Google, Inc.`](https://scholar.google.com/scholar_case?case=15197092051369647665&q=Oracle+America,+Inc.+v.+Google,+Inc.&hl=en&as_sdt=2006&as_vis=1)
-#. [Java Open Source Announcement](http://mail.openjdk.java.net/pipermail/build-dev/2010-December/003881.html)
-#. [Oracle v. Google (EFF)](https://www.eff.org/cases/oracle-v-google)
-#. `UCC 2-314`
-#. `UCC 2-315`
-#. [Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009)](https://repository.jmls.edu/cgi/viewcontent.cgi?article=1705&context=jitpl).
-#. [`Step-Saver Data Systems, Inc. v. Wyse Technology`](https://law.justia.com/cases/federal/district-courts/FSupp/752/181/1587693/)
-#. [`ProCD, Inc. v. Zeidenberg`](https://scholar.google.com/scholar_case?case=11811009805458694240&q=ProCD,+Inc.+v.+Zeidenberg&hl=en&as_sdt=2006&as_vis=1)
-#. [`Vernor v. Autodesk, Inc.`](https://scholar.google.com/scholar_case?case=10742056384168408518&q=Vernor+v.+Autodesk,+Inc.&hl=en&as_sdt=2006&as_vis=1)
-#. [`Jacobsen v. Katzer`](https://scholar.google.com/scholar_case?case=17776182574171214893&q=Jacobsen+v.+Katzer&hl=en&as_sdt=2006&as_vis=1)
-#. [`Artifex Software, Inc. v. Hancom, Inc.`](https://scholar.google.com/scholar_case?case=8793820917476297283&q=Artifex+Software,+Inc.+v.+Hancom,+Inc.&hl=en&as_sdt=2006&as_vis=1)
+* https://github.com/blog/1964-open-source-license-usage-on-github-com
+* https://opensource.org/licenses/MIT
+* https://opensource.org/licenses/GPL-2.0
+* https://opensource.org/licenses/Apache-2.0
+* https://opensource.org/licenses/GPL-3.0
+* https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator
+* [`Enfish LLC v. Microsoft, Inc.`](https://scholar.google.com/scholar_case?case=14524935561110783952&hl=en&as_sdt=6&as_vis=1&oi=scholarr)
+* [`Gottschalk v. Benson`](https://www.oyez.org/cases/1972/71-485)
+* [Mackay Co. v. Radio Corp.](https://supreme.justia.com/cases/federal/us/306/86/case.html)
+* [`Parker v. Flook`](https://www.oyez.org/cases/1977/77-642)
+* [`Diamond v. Diehr`](https://www.oyez.org/cases/1980/79-1112)
+* [`Arrhythmia Research Technology, Inc. v. Corazonix Corporation`](https://scholar.google.com/scholar_case?case=204952289152101012&q=Arrhythmia+Research+Technology,+Inc.+v.+Corazonix+Corporation&hl=en&as_sdt=2006&as_vis=1)
+* [`Alice Corporation v. CLS Bank International`](https://www.oyez.org/cases/2013/13-298)
+* [`Bilski v. Kappos`](https://www.oyez.org/cases/2009/08-964)
+* [`DDR Holdings, LLC v. Hotels.com, L.P.`](https://law.justia.com/cases/federal/appellate-courts/cafc/13-1505/13-1505-2014-12-05.html)
+* https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/
+* https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f
+* `17 U.S.C.A. § 102.`
+* [`Apple Computer, Inc. v. Franklin Computer Corp.`](https://scholar.google.com/scholar_case?case=10063204125696546680&q=Apple+Computer,+Inc.+v.+Franklin+Computer+Corp.&hl=en&as_sdt=2006&as_vis=1)
+* [`Computer Associates International, Inc. v. Altai, Inc.`](https://cyber.harvard.edu/people/tfisher/IP/1992%20Altai.pdf)
+* https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2876&context=vlr
+* [`Oracle America, Inc. v. Google, Inc.`](https://scholar.google.com/scholar_case?case=15197092051369647665&q=Oracle+America,+Inc.+v.+Google,+Inc.&hl=en&as_sdt=2006&as_vis=1)
+* [Java Open Source Announcement](http://mail.openjdk.java.net/pipermail/build-dev/2010-December/003881.html)
+* [Oracle v. Google (EFF)](https://www.eff.org/cases/oracle-v-google)
+* `UCC 2-314`
+* `UCC 2-315`
+* [Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009)](https://repository.jmls.edu/cgi/viewcontent.cgi?article=1705&context=jitpl).
+* [`Step-Saver Data Systems, Inc. v. Wyse Technology`](https://law.justia.com/cases/federal/district-courts/FSupp/752/181/1587693/)
+* [`ProCD, Inc. v. Zeidenberg`](https://scholar.google.com/scholar_case?case=11811009805458694240&q=ProCD,+Inc.+v.+Zeidenberg&hl=en&as_sdt=2006&as_vis=1)
+* [`Vernor v. Autodesk, Inc.`](https://scholar.google.com/scholar_case?case=10742056384168408518&q=Vernor+v.+Autodesk,+Inc.&hl=en&as_sdt=2006&as_vis=1)
+* [`Jacobsen v. Katzer`](https://scholar.google.com/scholar_case?case=17776182574171214893&q=Jacobsen+v.+Katzer&hl=en&as_sdt=2006&as_vis=1)
+* [`Artifex Software, Inc. v. Hancom, Inc.`](https://scholar.google.com/scholar_case?case=8793820917476297283&q=Artifex+Software,+Inc.+v.+Hancom,+Inc.&hl=en&as_sdt=2006&as_vis=1)
 
 # Glossary
 * **Object code** — machine-generated code created from human-readable source code
