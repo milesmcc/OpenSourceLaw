@@ -154,7 +154,7 @@ Copyright is the most well-known mechanism of software protection, and is theref
 
 ## License Comparison
 ### MIT license
-The MIT license does not include any reference to object code that would release the rights—implicitly or explicitly—for its reuse and redistribution. By virtue of being a shrinkwrap license included with the source of a program, the MIT license does not _explicitly_ grant usage rights to resulting compiled binaries. As a result, compiled binaries of MIT licensed code may not be subject to the same terms and releases as the source code, putting users at risk of copyright infringement.
+The MIT license does not include any reference to object code that would release the rights—implicitly or explicitly—for its reuse and redistribution. By virtue of being a shrinkwrap license included with the _source_ of a program, the MIT license does not explicitly grant usage rights to resulting compiled binaries. As a result, compiled binaries of MIT licensed code may not be subject to the same terms and releases as the source code, putting users at risk of copyright infringement.
 
 ### GPLv2, GPLv3, and Apache 2.0
 GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code in the license terms. They declare that the resulting object code generated from the licensed source code is subject to the same terms and conditions as the source code:
