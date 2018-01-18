@@ -5,7 +5,7 @@ by [R. Miles McCain](https://rmrm.io)
 
 ---
 
-_This article is not legal advice, and nothing in it should be interpreted as such. A general familiarity with the fundamentals of computer science and the United States justice system is assumed. For case subsections, all factual information is drawn directly from the case proceedings. In-text citations are provided via hyperlinks when available. Legal references `look like this`, and case proceedings are linked in their respective headers._
+_This article is not legal advice, and nothing in it should be interpreted as such. A general familiarity with the fundamentals of computer science, the open source movement, and the United States justice system is assumed. For case subsections, all factual information is drawn directly from the case proceedings. In-text citations are provided via hyperlinks when available. Legal references `look like this`, and case proceedings are linked in their respective headers._
 
 ---
 
