@@ -1,7 +1,5 @@
-# Nothing Is Implied: a Comprehensive Survey of Software Litigation and Open Source Licensing in the United States
-January 2018
-
-by [R. Miles McCain](https://rmrm.io)
+## Licenses, Loopholes, and Litigation: a Comprehensive Survey of Software Case Law and Open Source Licensing in the United States
+### by [R. Miles McCain](https://rmrm.io)
 
 ---
 
@@ -9,7 +7,7 @@ _This article is not legal advice, and nothing in it should be interpreted as su
 
 ---
 
-# Abstract
+### Abstract
 In the United States, several legal mechanisms govern the distribution and free use of computer software, notably patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing terms ambiguous and subject to potential restrictions. The GNU General Public License version 3.0 and the Apache 2.0 license are the most secure and unambiguous licenses, while the MIT license and GPLv2 leave important legal mechanisms governing open source software unaddressed.
 
 # Introduction
