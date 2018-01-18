@@ -10,7 +10,7 @@ _This article is not legal advice, and nothing in it should be interpreted as su
 ---
 
 # Abstract
-In the United States, many legal mechanisms govern the distribution of computer software, notably patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restrictions. GPLv3 and the Apache 2.0 license are the most secure and unambiguous licenses, while the MIT license and GPLv2 leave important legal mechanisms governing open source software unaddressed.
+In the United States, several legal mechanisms govern the distribution and free use of computer software, notably patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing terms ambiguous and subject to potential restrictions. The GNU General Public License version 3.0 and the Apache 2.0 license are the most secure and unambiguous licenses, while the MIT license and GPLv2 leave important legal mechanisms governing open source software unaddressed.
 
 # Introduction
 The well-being of the open source community is predicated on the free sharing of software. For the open source community to thrive, it must ensure that all of its participants—software contributors and users alike—are legally guaranteed the right to use, share, and modify the software.
