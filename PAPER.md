@@ -1,6 +1,7 @@
 # Nothing Is Implied: a Comprehensive Survey of Software Litigation and Open Source Licensing in the United States
 January 2018
-R. Miles McCain
+
+by [R. Miles McCain](https://rmrm.io)
 
 ---
 
