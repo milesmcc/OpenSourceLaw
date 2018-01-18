@@ -6,7 +6,7 @@ _For case subsections, all factual information is drawn directly from the case p
 
 _This article is not legal advice, and nothing in it should be interpreted as such._
 
-_A general familiarity with the fundamentals of computer science is assumed._
+_A general familiarity with the fundamentals of computer science and the United States justice system is assumed._
 
 # Abstract
 In the United States, many legal mechanisms govern the distribution of computer software, notably patents, copyright, liability, and warranty. The open source community uses a variety of licenses to allow the public to use its software freely. This survey of open source law finds that many of these licenses only explicitly address a small portion of these legal mechanisms, leaving the software's licensing ambiguous and subject to potential restrictions. GPLv3 and the Apache 2.0 license are the most secure and unambiguous licenses, while the MIT license and GPLv2 leave important legal mechanisms governing open source software unaddressed.
@@ -252,6 +252,9 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * **Object code** — machine-generated code created from human-readable source code
 * **Source code** — human readable and modifiable code that is often _compiled_ into machine-readable code
 * **Tort law** — the field of law that handles civil wrongs causing loss or harm.
+
+# Acknowledgements
+I would like to especially thank Darcy Meyer and Nicholas Miklaucic for their feedback on this article, as well as Nalu Concepcion and Dr. Nicholas Zufelt.
 
 ---
 
