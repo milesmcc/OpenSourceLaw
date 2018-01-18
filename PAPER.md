@@ -248,7 +248,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 
 * T. Randolph Beard, George S. Ford, Thomas M. Koutsky & Lawrence J. Spiwak, Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009). Available at: http://repository.jmls.edu/jitpl/vol27/iss2/1
 
-## Online
+## Digital
 * "Oracle v. Google." Electronic Frontier Foundation. June 14, 2017. Accessed January 17, 2018. https://www.eff.org/cases/oracle-v-google.
 
 * Administration, Office Of Patent Legal. "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
