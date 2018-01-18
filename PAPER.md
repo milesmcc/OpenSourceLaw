@@ -224,7 +224,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 ## Legal
 * [`Enfish LLC v. Microsoft, Inc.`](https://scholar.google.com/scholar_case?case=14524935561110783952&hl=en&as_sdt=6&as_vis=1&oi=scholarr)
 * [`Gottschalk v. Benson`](https://www.oyez.org/cases/1972/71-485)
-* [Mackay Co. v. Radio Corp.](https://supreme.justia.com/cases/federal/us/306/86/case.html)
+* [`Mackay Co. v. Radio Corp.`](https://supreme.justia.com/cases/federal/us/306/86/case.html)
 * [`Parker v. Flook`](https://www.oyez.org/cases/1977/77-642)
 * [`Diamond v. Diehr`](https://www.oyez.org/cases/1980/79-1112)
 * [`Arrhythmia Research Technology, Inc. v. Corazonix Corporation`](https://scholar.google.com/scholar_case?case=204952289152101012&q=Arrhythmia+Research+Technology,+Inc.+v.+Corazonix+Corporation&hl=en&as_sdt=2006&as_vis=1)
