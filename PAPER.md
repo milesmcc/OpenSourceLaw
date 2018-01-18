@@ -222,6 +222,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 
 # References
 ## Legal
+_While legal references are typically [not included](https://library.menloschool.org/chicago/legal) in bibliographies and reference sections, they are included here for convenience._
 * [`Enfish LLC v. Microsoft, Inc.`](https://scholar.google.com/scholar_case?case=14524935561110783952&hl=en&as_sdt=6&as_vis=1&oi=scholarr)
 * [`Gottschalk v. Benson`](https://www.oyez.org/cases/1972/71-485)
 * [`Mackay Co. v. Radio Corp.`](https://supreme.justia.com/cases/federal/us/306/86/case.html)
@@ -231,12 +232,12 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * [`Alice Corporation v. CLS Bank International`](https://www.oyez.org/cases/2013/13-298)
 * [`Bilski v. Kappos`](https://www.oyez.org/cases/2009/08-964)
 * [`DDR Holdings, LLC v. Hotels.com, L.P.`](https://law.justia.com/cases/federal/appellate-courts/cafc/13-1505/13-1505-2014-12-05.html)
-* `17 U.S.C.A. § 102.`
+* [`17 U.S.C.A. § 102.`](https://www.law.cornell.edu/uscode/text/17/102)
 * [`Apple Computer, Inc. v. Franklin Computer Corp.`](https://scholar.google.com/scholar_case?case=10063204125696546680&q=Apple+Computer,+Inc.+v.+Franklin+Computer+Corp.&hl=en&as_sdt=2006&as_vis=1)
 * [`Computer Associates International, Inc. v. Altai, Inc.`](https://cyber.harvard.edu/people/tfisher/IP/1992%20Altai.pdf)
 * [`Oracle America, Inc. v. Google, Inc.`](https://scholar.google.com/scholar_case?case=15197092051369647665&q=Oracle+America,+Inc.+v.+Google,+Inc.&hl=en&as_sdt=2006&as_vis=1)
-* `UCC 2-314`
-* `UCC 2-315`
+* [`UCC 2-314`](https://www.law.cornell.edu/ucc/2/2-314)
+* [`UCC 2-315`](https://www.law.cornell.edu/ucc/2/2-315)
 * [`Step-Saver Data Systems, Inc. v. Wyse Technology`](https://law.justia.com/cases/federal/district-courts/FSupp/752/181/1587693/)
 * [`ProCD, Inc. v. Zeidenberg`](https://scholar.google.com/scholar_case?case=11811009805458694240&q=ProCD,+Inc.+v.+Zeidenberg&hl=en&as_sdt=2006&as_vis=1)
 * [`Vernor v. Autodesk, Inc.`](https://scholar.google.com/scholar_case?case=10742056384168408518&q=Vernor+v.+Autodesk,+Inc.&hl=en&as_sdt=2006&as_vis=1)
