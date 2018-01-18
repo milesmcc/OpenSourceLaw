@@ -245,6 +245,8 @@ _While legal references are typically [not included](https://library.menloschool
 * [`Artifex Software, Inc. v. Hancom, Inc.`](https://scholar.google.com/scholar_case?case=8793820917476297283&q=Artifex+Software,+Inc.+v.+Hancom,+Inc.&hl=en&as_sdt=2006&as_vis=1)
 
 ## Journal
+* "Copyright Law. Scope of Protection of Non-Literal Elements of Computer Programs. Second Circuit Applies an "Abstraction-Filtration-Comparison" Test. Computer Associates International, Inc. v. Altai, Inc., Nos. 91-7893, 91-7935, 1992 U. S. App. LEXIS 14305 (2d Cir. June 22, 1992)." Harvard Law Review 106, no. 2 (1992): 510. doi:10.2307/1341709.
+
 * Stephen H. Eland, _The Abstraction-Filtration Test: Determining Non-Literal Copyright Protection for Software_, 39 Vill. L. Rev. 665 (1994). Available at: http://digitalcommons.law.villanova.edu/vlr/vol39/iss3/3
 
 * T. Randolph Beard, George S. Ford, Thomas M. Koutsky & Lawrence J. Spiwak, Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009). Available at: http://repository.jmls.edu/jitpl/vol27/iss2/1
@@ -256,7 +258,7 @@ _While legal references are typically [not included](https://library.menloschool
 
 * Balter, Ben. "Open source license usage on GitHub.com." GitHub. March 09, 2015. Accessed January 17, 2018. https://github.com/blog/1964-open-source-license-usage-on-github-com.
 
-* "Copyright Law. Scope of Protection of Non-Literal Elements of Computer Programs. Second Circuit Applies an "Abstraction-Filtration-Comparison" Test. Computer Associates International, Inc. v. Altai, Inc., Nos. 91-7893, 91-7935, 1992 U. S. App. LEXIS 14305 (2d Cir. June 22, 1992)." Harvard Law Review 106, no. 2 (1992): 510. doi:10.2307/1341709.
+* Claburn, Thomas. "GitLab freezes GraphQL project amid looming Facebook patent fears." The Register. September 20, 2017. Accessed January 17, 2018. https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/.
 
 * "GNU General Public License version 2." GNU General Public License version 2 | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/GPL-2.0.
 
@@ -269,8 +271,6 @@ _While legal references are typically [not included](https://library.menloschool
 * "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
 
 * "The MIT License." The MIT License | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/MIT.
-
-* Thomas Claburn in San Francisco 20 Sep 2017 at 22:30 tweet_btn(). "GitLab freezes GraphQL project amid looming Facebook patent fears." The Register. September 20, 2017. Accessed January 17, 2018. https://www.theregister.co.uk/2017/09/20/gitlab_suspends_graphql_project_over_facebook_license_terms/.
 
 * Walsh, Dennis. "React's New MIT License: The Circus Enters Its Third Ring ." Medium. September 25, 2017. Accessed January 17, 2018. https://medium.com/@dwalsh.sdlr/reacts-new-mit-license-the-circus-enters-it-s-third-ring-2f1bf989a67f.
 
