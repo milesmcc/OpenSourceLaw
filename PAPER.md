@@ -251,7 +251,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 ## Digital
 * "Oracle v. Google." Electronic Frontier Foundation. June 14, 2017. Accessed January 17, 2018. https://www.eff.org/cases/oracle-v-google.
 
-* Administration, Office Of Patent Legal. "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
+* "Patent Term Calculator." United States Patent and Trademark Office - An Agency of the Department of Commerce. Accessed January 17, 2018. https://www.uspto.gov/patent/laws-and-regulations/patent-term-calculator.
 
 * "Apache License, Version 2.0." Apache License, Version 2.0 | Open Source Initiative. Accessed January 17, 2018. https://opensource.org/licenses/Apache-2.0.
 
