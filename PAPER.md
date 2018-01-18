@@ -32,7 +32,7 @@ The precedents of patent law were first set in a world without software. The fra
 
 Today, patents are applicable to software (see `DDR Holdings, LLC v. Hotels.com, L.P.` below; see also [`Enfish LLC v. Microsoft, Inc.`](https://scholar.google.com/scholar_case?case=14524935561110783952&hl=en&as_sdt=6&as_vis=1&oi=scholarr)). Because patent infringement can lead to both a fine and a legal order to cease use of the patented material, open source licenses should explicitly address patents to ensure that licensed software remains available for free use. In order to understand how software licenses can address patents, however, it is necessary to first understand the legal precedents regarding software patents themselves.
 
-## Cases
+## Precedent
 ### [`Gottschalk v. Benson`](https://www.oyez.org/cases/1972/71-485) (1972)
 In 1972, Commissioner of Patents Robert Gottschalk challenged the validity inventor Gary Benson's patent: the process by which numbers in decimal notation could be transformed into binary notation. Benson claimed that all uses of his algorithm—be they automated by a computer or performed by hand—were subject to his patent. Calling the patented algorithm nothing more than a "law of nature," the court ruled against Benson and declared the patent invalid. Benson appealed, and eventually the case appeared before the Supreme Court.
 
@@ -124,7 +124,7 @@ Unlike software patents, which protect non-abstract ideas, _copyright_ protects 
 
 Like patent law, copyright law was established largely before software became prominent. As such, it is necessary to look deeper than `17 U.S.C.A. § 102` (which, unsurprisingly, contains no reference to software) to completely understand copyright law as it relates to software and open source licenses.
 
-## Cases
+## Precedent
 ### [`Apple Computer, Inc. v. Franklin Computer Corp.`](https://scholar.google.com/scholar_case?case=10063204125696546680&q=Apple+Computer,+Inc.+v.+Franklin+Computer+Corp.&hl=en&as_sdt=2006&as_vis=1) (1983)
 In 1982, the Franklin Computer Corporation released the _Franklin Ace 1000_. The machine was a near clone of the Apple II, and Franklin copied significant portions of Apple's operating system for use on its own. Apple, in an effort to retain its market share and stop a product that it believed clearly violated its intellectual property, brought Franklin Computer to court.
 
@@ -175,7 +175,7 @@ Open source software is offered to the world free of charge, but it nonetheless 
 
 To protect open source contributors from being held legally liable for potential issues created by their software, open source licenses must explicitly disclaim all warranty and liability.
 
-## Cases
+## Precedent
 No precedent regarding tort liability disclaimers in open source exists, however the Uniform Commercial Code states that unless overruled by another law, disclaimers defined contracts (open source licenses included; see `Jacobsen v. Katzer` (2008) below) are enforceable. For an analysis of tort liability in software-at-large, see [Tort Liability for Software Developers: A Law & Economics Perspective, 27 J. Marshall J. Computer & Info. L. 199 (2009)](https://repository.jmls.edu/cgi/viewcontent.cgi?article=1705&context=jitpl).
 
 ## License Comparison
@@ -195,7 +195,7 @@ The MIT license, GPLv2, GPLv3, and Apache 2.0 all disclaim liability and warrant
 # Enforceability of Licenses
 The terms defined in open source licenses only carry force if they are honored in court. If the copyleft requirement of the General Public Licenses were not legally binding, the license would lose its effectiveness. Furthermore, because the terms defined in open source licenses are not negotiated between contributors and individual users (open source licenses are _shrinkwrap_ licenses: contracts that come into effect when the user performs a certain action, such as using or downloading the software), questions of enforceability can be raised.
 
-## Cases
+## Precedent
 ### [`Step-Saver Data Systems, Inc. v. Wyse Technology`](https://law.justia.com/cases/federal/district-courts/FSupp/752/181/1587693/) (1991)
 In 1992, Step-Saver Data Systems brought Wyse Technology to court for reselling its software as part of a value-added packaged product. Step-Saver Data Systems' software contained a 'shrinkwrap' license—a set of terms that come into effect when the software is used—that allowed for use but not reselling. Wyse Technology negotiated separate terms regarding reselling the software over the phone, but Step-Saver argued that the terms of the shrinkwrap license were not overwritten by the agreement.
 
@@ -231,7 +231,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * `DDR Holdings, LLC v. Hotels.com, L.P.` (2014)
 * `Enfish LLC v. Microsoft, Inc.`
 * `Gottschalk v. Benson` (1972)
-* `Mackay Co. v. Radio Corp., 306 U.S. 86`
+* `Mackay Co. v. Radio Corp., 306 U.S. 86` (1939)
 * `Parker v. Flook` (1978)
 * `Diamond v. Diehr` (1981)
 * `Arrhythmia Research Technology, Inc. v. Corazonix Corporation` (1992)
@@ -255,7 +255,7 @@ Instead of using the dangerous MIT license, open source projects wishing to be l
 * **Tort law** — the field of law that handles civil wrongs causing loss or harm.
 
 # Acknowledgements
-I would like to especially thank Darcy Meyer and Nicholas Miklaucic for their feedback on this article, as well as Nalu Concepcion and Dr. Nicholas Zufelt.
+I would like to especially thank Darcy Meyer, Nicholas Miklaucic, Anlan Du, and Celia Egler for their feedback on this article, as well as Nalu Concepcion, Malcolm Essaid, and Dr. Nicholas Zufelt.
 
 ---
 
