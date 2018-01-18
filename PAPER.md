@@ -120,9 +120,9 @@ In doing so, the Apache license effectively shields its users and contributors a
 **Apache 2.0**: express patent grant
 
 # Copyright Law
-Unlike software patents, which protect non-abstract ideas, _copyright_ protects media works, such as source code and compiled binaries, from unauthorized re-use by third parties. Copyright protects "original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device." (`17 U.S.C.A. § 102.`) No special process is needed to protect a work under copyright; unless otherwise specified, any work—be it a piece of software, a painting, or a song—is protected by copyright and all rights are reserved.
+Unlike software patents, which protect non-abstract ideas, _copyright_ protects media works, such as source code and compiled binaries, from unauthorized re-use by third parties. Copyright protects "original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device." ([`17 U.S.C.A. § 102.`](https://www.law.cornell.edu/uscode/text/17/102)) No special process is needed to protect a work under copyright; unless otherwise specified, any work—be it a piece of software, a painting, or a song—is protected by copyright and all rights are reserved.
 
-Like patent law, copyright law was established largely before software became prominent. As such, it is necessary to look deeper than `17 U.S.C.A. § 102` (which, unsurprisingly, contains no reference to software) to completely understand copyright law as it relates to software and open source licenses.
+Like patent law, copyright law was established largely before software became prominent. As such, it is necessary to look deeper than [`17 U.S.C.A. § 102.`](https://www.law.cornell.edu/uscode/text/17/102) (which, unsurprisingly, contains no reference to software) to completely understand copyright law as it relates to software and open source licenses.
 
 ## Precedent
 ### [`Apple Computer, Inc. v. Franklin Computer Corp.`](https://scholar.google.com/scholar_case?case=10063204125696546680&q=Apple+Computer,+Inc.+v.+Franklin+Computer+Corp.&hl=en&as_sdt=2006&as_vis=1) (1983)
@@ -171,7 +171,7 @@ GPLv2, GPLv3, and Apache 2.0 explicitly address both source code and object code
 **Apache 2.0**: rights granted for both source and object code
 
 # Warranty and Liability Law
-Open source software is offered to the world free of charge, but it nonetheless finds itself subject to the `Uniform Commercial Code` (`UCC`), a series of laws designed to protect consumers from negligent or malicious vendors. The `UCC` states that all sales—open source software distribution included—have an implicit warranty that the items sold or shared are fit for a particular purpose (`UCC 2-314`: Implied Warranty; Merchantability; Usage of Trade and `UCC 2-315`: Implied Warranty; Fitness for Particular Purpose.)
+Open source software is offered to the world free of charge, but it nonetheless finds itself subject to the `Uniform Commercial Code` (`UCC`), a series of laws designed to protect consumers from negligent or malicious vendors. The `UCC` states that all sales—open source software distribution included—have an implicit warranty that the items sold or shared are fit for a particular purpose ([`UCC 2-314`](https://www.law.cornell.edu/ucc/2/2-314): Implied Warranty; Merchantability; Usage of Trade and [`UCC 2-315`](https://www.law.cornell.edu/ucc/2/2-315): Implied Warranty; Fitness for Particular Purpose.)
 
 To protect open source contributors from being held legally liable for potential issues created by their software, open source licenses must explicitly disclaim all warranty and liability.
 
